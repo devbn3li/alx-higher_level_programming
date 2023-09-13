@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """This read from standard input and computes metrics
 After every 10 lines or the input of a keyboard interruption (CTRL + C),
 print following statistics:
