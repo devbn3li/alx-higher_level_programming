@@ -2,8 +2,8 @@
 """This read from standard input and computes metrics
 After every 10 lines or the input of a keyboard interruption (CTRL + C),
 print following statistics:
-    * The total file size up to that point
-    * Count of read status codes up to that point
+    The total file size up to that point
+    Count of read status codes up to that point
 """
 
 
