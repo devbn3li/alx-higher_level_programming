@@ -1,0 +1,5 @@
+The ``7-base_geometry`` module
+============================
+
+Test ``BaseGeometry``
+---------------------
