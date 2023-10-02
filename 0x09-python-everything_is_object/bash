@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for i in {29..99}; do
+  rm "${i}-answer.txt"
+done
