@@ -13,5 +13,3 @@ if __name__ == "__main__":
     states = cr.fetchall()
     for states in states:
         print(states)
-    cr.close()
-    db.close()
