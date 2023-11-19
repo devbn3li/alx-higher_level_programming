@@ -11,5 +11,5 @@ if __name__ == "__main__":
     cr = db.cursor()
     cr.execute("SELECT * FROM states WHERE name LIKE 'N%';")
     states = cr.fetchall()
-    for states in states:
-        print(states)
+    for state in states:
+        print(state)
