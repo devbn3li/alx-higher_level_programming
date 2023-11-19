@@ -12,14 +12,14 @@ if __name__ == '__main__':
         db=argv[3],
         port=3306
     )
-    mycursor = mydb.cursor()
+    cur = mydb.cursor()
 
     query = """SELECT * FROM states WHERE BINARY name
     LIKE 'N%' ORDER BY ID ASC"""
-    mycursor.execute(query)
+    cur.execute(query)
 
-    result = mycursor.fetchall()
+    result = cur.fetchall()
     for row in result:
         print(row)
-    mycursor.close()
+    cur.close()
     mydb.close()
