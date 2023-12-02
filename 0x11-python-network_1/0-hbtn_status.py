@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Fetches https://intranet.hbtn.io/status"""
+"""Fetches https://alx-intranet.hbtn.io/status"""
 
-
-import urllib.request
 
 if __name__ == "__main__":
+    import urllib.request
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
         content = response.read()
         print("Body response:")
