@@ -10,7 +10,8 @@ request(url, function (error, response, body) {
     const characters = JSON.parse(body).characters;
     printCharacters(characters, 0);
   }
-});
+}
+);
 
 function printCharacters(characters, i) {
   if (i >= characters.length) {
@@ -23,5 +24,6 @@ function printCharacters(characters, i) {
       console.log(JSON.parse(body).name);
       printCharacters(characters, i + 1);
     }
-  });
+  }
+  );
 }
